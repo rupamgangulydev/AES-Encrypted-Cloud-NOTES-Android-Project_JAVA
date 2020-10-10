@@ -1,9 +1,9 @@
 # Android_Projects_JAVA
 
- ## Tic-Tac-Toe 
+ ## 1-Tic-Tac-Toe 
  
  <img src="TIC_TAC_TOE-MultiActivity/Gifr.gif"> 
  
-  ## All Navigation Activity 
+  ## 2-All Navigation Activity 
 
 <img src="AllKindOfNavigations/GiffNav.gif">
