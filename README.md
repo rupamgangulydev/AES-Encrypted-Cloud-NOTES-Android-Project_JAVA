@@ -6,4 +6,3 @@
  
   ## 2-All Navigation Activity 
 
-<img src="AllKindOfNavigations/GiffNav.gif">
