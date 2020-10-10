@@ -1,5 +1,6 @@
 # Android_Projects_JAVA
 
+## Click the Gif for Lag free expirence.
 
 | PROJECTS  | PROJECTS |
 | ------------- | ------------- |
