@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B0101"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/branding_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:text="@string/developed_by_rupam_ganguly"
+        android:textAlignment="center"
+        android:textColor="#F8F6F6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/type_here_button"
+        android:layout_width="270sp"
+        android:layout_height="37sp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="16dp"
+        android:autofillHints=""
+        android:background="@drawable/border_of"
+        android:ems="10"
+        android:hint="@string/type_here"
+        android:inputType="textPersonName"
+        android:paddingLeft="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_view" />
+
+    <Button
+        android:id="@+id/send_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="44sp"
+        android:layout_height="38sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/please_send"
+        android:foreground="@drawable/please_send"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/type_here_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/Theme.Encr" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="397dp"
+        android:layout_height="469dp"
+        android:padding="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branding_text_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
