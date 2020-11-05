@@ -1,14 +1,3 @@
 <resources>
-    <string name="app_name">TicTacToe</string>
-    <string name="welcome_to_tic_tac_toe">Welcome to Tic Tac Toe</string>
-    <string name="https_github_com_rupamgangulydev">https://github.com/rupamgangulydev</string>
-    <string name="developed_by_rupam_ganguly">Developed by Rupam Ganguly</string>
-    <string name="todo">TODO</string>
-    <string name="o_s_turn">O\'s Turn</string>
-    <string name="play">PLAY</string>
-    <string name="enter_name_of_player_2">Enter Name of Player 2</string>
-    <string name="enter_name_of_player_1">Enter Name of Player 1</string>
-    <string name="type_max_5_letter">Type Max 5 letter</string>
-
-
+    <string name="app_name">TestApplication</string>
 </resources>
