@@ -1,10 +1,11 @@
-# Android_Projects_JAVA
+# Android_Projects_JAVA Native
 
 ## Click the Gif for Lag free expirence.
 
 ### CloudNotes_AES Encrypted_FIREBASE_CLOUD
 
 <img src="APP DEMO VIDEO.gif">
+
 ### AES_firebase_msz_Encryption&Decrtyption
 
 <img src="AES_firebase_msz_Encryption%26Decrtyption/Rec%200001.gif">
